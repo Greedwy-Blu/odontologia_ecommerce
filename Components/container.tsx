@@ -1,19 +1,12 @@
 import styled from "styled-components";
 
 
+import * as React from 'react';
 
-const Container = styled.div`
-
-padding: 0 10px;
-
-@media (min-width: 1020px) {
- max-width: 1000px;
- margin: 0 auto;
+export class Continer extends React.Component{
+    render() {
+    return(
+    <div  className="container mx-auto"></div>
+    )
+    }
 }
-
-
- 
-`;
-
-
-export default Container
