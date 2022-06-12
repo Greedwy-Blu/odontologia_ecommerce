@@ -3,6 +3,7 @@ import { Transition } from "@headlessui/react";
 
 import Image from 'next/image'
 const  imIcon = require('../../assets/icons8-stethoscope-64.png');
+import Link from 'next/link'
 
 function Nav() {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,28 +20,33 @@ function Nav() {
                      </div>
                 </div>
                 <div className="hidden md:block">
-                  <div className="ml-36 pl-24  flex items-baseline space-x-4">
+                  <div className="ml-36 pl-36  flex items-baseline space-x-4">
+                  <Link href="/odontomedic">
                     <a
-                      href="#"
                       className="text-slate-900 px-3 py-2  text-lg font-medium border-b-2   border-transparent hover:border-emerald-500  p-1 transition  duration-300 delay-150"
                     >
-                      Dashboard
+                    Sobre
                     </a>
-  
+             </Link>
+             <Link href="/preco">
                 
                     <a
                       href="#"
                       className="text-slate-900  px-3 py-2  text-lg font-medium border-b-2   border-transparent hover:border-emerald-500  p-1 transition  duration-300 delay-150"
                     >
-                      Calendar
+                      Preço
                     </a>
-  
+                    </Link>
+                    <Link href="/qualidade">
+            
                     <a
                       href="#"
                       className="text-slate-900  px-3 py-2  text-lg font-medium  border-b-2   border-transparent hover:border-emerald-500  p-1 transition  duration-300 delay-150"
                     >
-                      Reports
+                      Produto
                     </a>
+                    </Link>
+                   
                   </div>
                 </div>
               </div>
@@ -103,27 +109,32 @@ function Nav() {
             {(ref) => (
               <div className="md:hidden" id="mobile-menu">
                 <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                  <a
-                    href="#"
-                    className=" text-slate-900 block px-3 py-2 text-base font-medium border-b-2   border-transparent hover:border-emerald-500  p-1 transition  duration-300 delay-150"
-                  >
-                    Dashboard
-                  </a>
-  
-                  <a
-                    href="#"
-                    className="text-slate-900  block px-3 py-2  text-base font-medium border-b-2   border-transparent hover:border-emerald-500  p-1 transition  duration-300 delay-150"
-                  >
-                    Team
-                  </a>
-  
-                  <a
-                    href="#"
-                    className="text-slate-900  block px-3 py-2  text-base font-medium border-b-2   border-transparent hover:border-emerald-500  p-1 transition  duration-300 delay-150"
-                  >
-                    Projects
-                  </a>
-  
+                <Link href="/odontomedic">
+                    <a
+                      href="#"
+                      className="text-slate-900 px-3 py-2  text-lg font-medium border-b-2   border-transparent hover:border-emerald-500  p-1 transition  duration-300 delay-150"
+                    >
+                    Sobre
+                    </a>
+             </Link>
+             <Link href="/preco">
+                
+                    <a
+                      href="#"
+                      className="text-slate-900  px-3 py-2  text-lg font-medium border-b-2   border-transparent hover:border-emerald-500  p-1 transition  duration-300 delay-150"
+                    >
+                      Preço
+                    </a>
+                    </Link>
+                    <Link href="/qualidade">
+            
+                    <a
+                      href="#"
+                      className="text-slate-900  px-3 py-2  text-lg font-medium  border-b-2   border-transparent hover:border-emerald-500  p-1 transition  duration-300 delay-150"
+                    >
+                      Produto
+                    </a>
+                    </Link>
                  
                 </div>
               </div>

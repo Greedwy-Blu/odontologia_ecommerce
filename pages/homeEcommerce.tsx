@@ -8,13 +8,12 @@ import TextSection from '../Components/Home/textSectIon';
 export function HomeEcommerce(){
  
     return (
-      <div className="container mx-auto">
+      <div className="container mx-auto fixed">
         <Nav/>
-        <HearderHome/>
-        <CardSkew/>
        
-        <TextSection/>
-       </div>
+<HearderHome/>
+       <CardSkew/>
+        </div>
     );
  
 };
