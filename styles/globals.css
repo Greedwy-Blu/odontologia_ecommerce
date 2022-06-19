@@ -11,10 +11,14 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
+   
  }
 
 
 * {
   box-sizing: border-box;
 }
-
+:root {
+  --contrast-color:#0f9b7a;
+  --secodery-color: #f4f8f5;
+}

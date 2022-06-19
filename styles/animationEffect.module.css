@@ -1,0 +1,64 @@
+
+  .overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      z-index: -10;
+      background-color: var(--contrast-color);
+    
+  }
+  .containerAnimacao{
+    display: flex;
+    position: relative;
+    height: 100vh;
+animation: expand .8s ease forwards;
+transition: all .8s ease;
+background-color: var(--secodery-color);
+ 
+  }
+.textUp{
+animation: slideUp .8s ease-in-out forwards .8s;
+}
+.cardIn{
+  transform: translateY(300px);
+  animation: slideIn 1.5s ease-in-out forwards ;
+
+}
+
+.navUp{
+  animation: slideUp .8s ease forwards .5s;
+
+}
+  @keyframes slideIn{
+    0%{
+      transform: translateX(500px) scale(.2);
+    }
+    100%{
+      transform: translateX(0px) scale(1);
+  
+    }
+  }
+  
+  @keyframes slideUp{
+    0%{
+      transform: translateY(300px);
+    }
+    100%{
+      transform: translateY(0px);
+  
+    }
+  }
+  
+  @keyframes expand{
+    0%{
+      transform: translateX(1400px);
+    }
+    100%{
+      transform: translateX(0px);
+  
+    }
+  }
+  

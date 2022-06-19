@@ -4,13 +4,15 @@ import { Transition } from "@headlessui/react";
 import Image from 'next/image'
 const  imIcon = require('../../assets/icons8-stethoscope-64.png');
 import Link from 'next/link'
+import styles from  '../../styles/animationEffect.module.css';
+
 
 function Nav() {
     const [isOpen, setIsOpen] = useState(false);
     return (
-      <div>
-        <nav className="bg-inherit">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6  lg:px-8">
+      <div className={styles.navUp}>
+        <nav className="bg-[#f4f8f5]">
+          <nav className="max-w-7xl container mx-auto px-4 sm:px-6  lg:px-8">
             <div className="flex items-center justify-start  h-16 ">
               <div className="flex items-center ">
                 <div className="flex flex-shrink-0  ">
@@ -20,7 +22,7 @@ function Nav() {
                      </div>
                 </div>
                 <div className="hidden md:block">
-                  <div className="ml-36 pl-36  flex items-baseline space-x-4">
+                  <div className="ml-32 pl-28  flex items-baseline space-x-4">
                   <Link href="/odontomedic">
                     <a
                       className="text-slate-900 px-3 py-2  text-lg font-medium border-b-2   border-transparent hover:border-emerald-500  p-1 transition  duration-300 delay-150"
@@ -47,10 +49,10 @@ function Nav() {
                     </a>
                     </Link>
                    
-                  </div>
+                  </div> 
                 </div>
               </div>
-              <div className="-mr-2  flex md:hidden">
+              <div className="-mr-2  flex lg:hidden w-full md:flex md:items-center md:w-auto  sm:bg-[#f4f8f5]">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   type="button"
@@ -95,7 +97,7 @@ function Nav() {
                 </button>
               </div>
             </div>
-          </div>
+          </nav>
   
           <Transition
             show={isOpen}

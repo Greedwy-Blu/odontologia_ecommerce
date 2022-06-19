@@ -1,10 +1,12 @@
 // @flow
 import * as React from 'react';
+import styles from  '../../styles/animationEffect.module.css';
+
 function HearderHome(){
   
     return (
-      <div className=" ">
-      <div className="flex grid lg:grid-cols-3  lg:content-start  sm:grid-cols-1 sm:content-center  lg:mt-32 fixed    ">
+      <div className={styles.textUp}>
+      <div className="flex grid lg:grid-cols-3  lg:content-start  sm:grid-cols-1 sm:content-center  lg:mt-32   lg:fixed  ">
         
         <div className="m-8  ">
         <h1 className="text-3xl text-emerald-800 ">AQUI VOCÊ ENCONTRA DIVERSOS PRODUTOS DA  MELHOR QUALIDADE</h1>
