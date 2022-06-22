@@ -8,6 +8,7 @@ export default function Home() {
   <div className={styles.containerAnimacao}>
     <HomeEcommerce/>
     </div>
+   
     <div className={styles.overlay}></div>
     
     </div>

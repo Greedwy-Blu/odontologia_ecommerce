@@ -11,9 +11,9 @@ function Nav() {
     const [isOpen, setIsOpen] = useState(false);
     return (
       <div className={styles.navUp}>
-        <nav className="bg-[#f4f8f5]">
-          <nav className="max-w-7xl container mx-auto px-4 sm:px-6  lg:px-8">
-            <div className="flex items-center justify-start  h-16 ">
+        <nav className="bg-[#f4f8f5] sm:border-none fixed ">
+          <nav className="max-w-7xl  mx-auto px-4 sm:px-6  lg:px-8 ">
+            <div className="flex items-center justify-start sm:fixed h-16 ">
               <div className="flex items-center ">
                 <div className="flex flex-shrink-0  ">
                  <div className="flex text-center ">
@@ -52,11 +52,11 @@ function Nav() {
                   </div> 
                 </div>
               </div>
-              <div className="-mr-2  flex lg:hidden w-full md:flex md:items-center md:w-auto  sm:bg-[#f4f8f5]">
+              <div className="-mr-2 sm:border-none  flex lg:hidden w-full md:flex md:items-center md:w-auto  sm:bg-[#f4f8f5]">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
                   type="button"
-                  className="bg-teal-900 flex inline-flex items-center  justify-end ml-32 p-2   rounded-md text-gray-400 hover:text-white hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-800 focus:ring-white"
+                  className="bg-teal-900 flex inline-flex items-center   justify-end ml-16 p-2   rounded-md text-gray-400 hover:text-white hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-800 focus:ring-white"
                   aria-controls="mobile-menu"
                   aria-expanded="false"
                 >
@@ -109,8 +109,8 @@ function Nav() {
             leaveTo="opacity-0 scale-95"
           >
             {(ref) => (
-              <div className="md:hidden" id="mobile-menu">
-                <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div className="flex  md:hidden  " id="mobile-menu">
+                <div ref={ref} className="px-2 pt-2 pb-3 pl-16 space-y-1 sm:px-3 ">
                 <Link href="/odontomedic">
                     <a
                       href="#"
