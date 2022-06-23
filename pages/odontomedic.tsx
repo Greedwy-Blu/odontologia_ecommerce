@@ -29,8 +29,8 @@ export default  class odontomedic extends React.Component{
 
             </div> 
 
-            <div className="pl-12 mt-20 fixed">
-<button className="flex justify-end lg:mt-24   sm:12  bg-green-500 h-10 w-10 rounded-full">
+            <div className=" pr-36 mt-20 m-8 fixed">
+<button className="flex justify-end lg:mt-24     bg-green-500 h-10 w-10 rounded-full">
   <IconContext.Provider value={{ size: "2em", className: "flex items-center" }}>
     <span className="mt-0.5 p-0.5"><BiLeftArrowAlt/></span>
     </IconContext.Provider>
@@ -38,9 +38,9 @@ export default  class odontomedic extends React.Component{
      </div>
      
 
-      <div className="flex lg:justify-start sm:justify-center mt-36 pt-24 lg:ml-24 ">
+      <div className="flex lg:justify-start sm:justify-center mt-36 pt-36 lg:ml-24 ">
 
-      <span className="animate-waving-hand animate-bounce  ">  <Image src={imCardOdont} className="" height={560} width={520} /></span>
+      <span className="animate-bounce ">  <Image src={imCardOdont} className="" height={460} width={420} /></span>
 
       </div>
       
