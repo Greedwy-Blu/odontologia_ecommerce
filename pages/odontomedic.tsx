@@ -23,7 +23,7 @@ export default  class odontomedic extends React.Component{
         <main className={styles.containerAnimacao}>
         <Nav/>
      
-     <div className="flex justify-center text-center items-center lg:ml-56 lg:pl-60 mt-24 sm:m-8 fixed">
+     <div className="flex lg:justify-center text-center lg:items-center lg:ml-56 lg:pl-60 mt-24 sm:m-8 sm:pl-2  fixed">
 
 <h1 className="text-4xl  py-4 lg:pl-4 lg:mt-8 sm:ml-4 ">Sobre a odontemedic</h1>
 
