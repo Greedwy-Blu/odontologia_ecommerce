@@ -37,7 +37,7 @@ export default  class qualidade extends React.Component{
 
     <div className="flex lg:justify-start sm:justify-center mt-36 pt-36 lg:ml-24 ">
 
-    <span className="">  <Image src={imCardProduto} className="" height={460} width={420} /></span>
+    <span className="animate-bounce ">  <Image src={ imCardProduto} className="" height={460} width={420} /></span>
 
     </div>
     
@@ -53,7 +53,6 @@ export default  class qualidade extends React.Component{
       </main>
       <div className={styles.overlay}></div>
   
-    </div>
-    );
+    </div>   );
   };
 };
