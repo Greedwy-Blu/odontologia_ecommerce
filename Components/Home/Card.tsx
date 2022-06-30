@@ -17,7 +17,7 @@ export class CardSkew extends React.Component{
 <div className={styles.cardIn}>
       
 
-      <div className="flex    lg:justify-end mt-28 md:max-h-screen md:max-w-screen  sm:max-h-screen sm:max-w-screen">
+      <div className=" flex    lg:justify-end   sm:pt-36 inline-block  ">
      
 
 <div className="bg-violet-500 w-24 h-1/4 rounded-tl-lg rounded-bl-lg  rounded-tr-lg drop-shadow-xl "><a className="lg:pl-4 sm:pr-2"><Image  src={imIcon} width="64" height="64" className=' object-center overflow-hidden' /></a></div>

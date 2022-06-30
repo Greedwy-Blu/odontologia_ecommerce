@@ -6,7 +6,7 @@ function HearderHome(){
   
     return (
       <div className={styles.textUp}>
-      <div className="flex grid lg:grid-cols-3  lg:content-start  sm:grid-cols-1 sm:content-center  lg:mt-32   lg:fixed  ">
+      <div className="flex grid lg:grid-cols-3  lg:content-start  sm:grid-cols-1 sm:content-center  lg:mt-32    sm:translate-y-12 lg:fixed">
         
         <div className="m-8  ">
         <h1 className="text-3xl text-emerald-800 ">AQUI VOCÊ ENCONTRA DIVERSOS PRODUTOS DA  MELHOR QUALIDADE</h1>
