@@ -14,9 +14,10 @@
     display: flex;
     position: relative;
     height: 100vh;
-animation: expand .8s ease forwards;
+   animation: expand .8s ease forwards;
 transition: all .8s ease;
 background-color: var(--secodery-color);
+overflow-x: hidden
  
   }
 .textUp{
@@ -32,6 +33,16 @@ animation: slideUp .8s ease-in-out forwards .8s;
   animation: slideUp .8s ease forwards .5s;
 
 }
+.blobImage{
+  background-color:#26A69A;
+  border-radius:  30% 70% 31% 69% / 55% 17% 83% 45% ;
+  width: 390px;
+  height: 350px;
+  background-image: "../assets/undraw_social_sharing_re_pvmr.svg";
+
+
+}
+
   @keyframes slideIn{
     0%{
       transform: translateX(500px) scale(.2);

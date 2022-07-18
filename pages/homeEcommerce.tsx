@@ -8,12 +8,13 @@ import styles from  '../styles/animationEffect.module.css';
 export function HomeEcommerce(){
  
     return (
-      <div className="container mx-auto 
-      lg:fixed">
+      <div className="fixed
+ container mx-auto  ">
         <Nav/>
-       
+      
+
 <HearderHome/>
-       <CardSkew/>
+<CardSkew/>  
        </div>
     );
  

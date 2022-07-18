@@ -2,11 +2,12 @@
 import * as React from 'react';
 import styles from  '../../styles/animationEffect.module.css';
 
+import Link from 'next/link'
 function HearderHome(){
   
     return (
       <div className={styles.textUp}>
-      <div className="flex grid lg:grid-cols-3  lg:content-start  sm:grid-cols-1 sm:content-center  lg:mt-32    sm:translate-y-12 lg:fixed">
+      <div className="flex  grid lg:grid-cols-3  lg:content-start  sm:grid-cols-1 sm:content-center      sm:translate-y-12   inline-block   ">
         
         <div className="m-8  ">
         <h1 className="text-3xl text-emerald-800 ">AQUI VOCÊ ENCONTRA DIVERSOS PRODUTOS DA  MELHOR QUALIDADE</h1>
@@ -21,7 +22,8 @@ function HearderHome(){
 <span className="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
 <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinejoin="round"  strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
 </span>
-<span className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">Começar a ver</span>
+
+<button className="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">Começar a ver</button>
 </a>
      </p>
         </div>
