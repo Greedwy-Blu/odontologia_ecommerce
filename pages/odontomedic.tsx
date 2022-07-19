@@ -40,22 +40,22 @@ export default  class odontomedic extends React.Component{
 
     
      <div className=" flex lg:justify-start  sm:justify-center lg:mt-36   lg:ml-24 translate-y-40 fixed">
-
+     <p className="lg:hidden lg:text-3xl sm:text-xl antialiased hover:subpixel-antialiased   translate-y-96 fixed">A odontomedic foi criado para fornecer ajuda  aos profissionais e as pessoas  que nescessita equipamentos medicos á produtos medicos </p>
+      
 <div className={styles.blobImage}>
 
 <span className="">  <Image src={imCardOdont} className="" height={460} width={420} /></span>
 </div>
    
-<p className="lg:hidden lg:text-3xl sm:text-xl antialiased hover:subpixel-antialiased    ">A odontomedic foi criado para fornecer ajuda  aos profissionais e as pessoas  que nescessita equipamentos medicos á produtos medicos </p>
-    
+
 
 </div>
 
       
           
-  <div className="lg:flex  lg:justify-end sm:justify-start m-4  lg:ml-40 lg:mt-36 lg:pt-36  ">
+  <div className="lg:flex  lg:justify-end sm:justify-center  m-4  lg:ml-40 lg:mt-36 lg:pt-36 translate-x-6 ">
  
-      <p className="lg:text-3xl sm:text-xl antialiased hover:subpixel-antialiased    ">A odontomedic foi criado para fornecer ajuda  aos profissionais e as pessoas  que nescessita equipamentos medicos á produtos medicos </p>
+      <p className="lg:text-3xl sm:text-xl antialiased text-center   ">A odontomedic foi criado para fornecer ajuda  aos profissionais e as pessoas  que nescessita equipamentos medicos á produtos medicos </p>
     
 
       </div>
