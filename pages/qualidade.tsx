@@ -22,7 +22,7 @@ export default  class qualidade extends React.Component{
    
    <div className="flex lg:justify-center text-center lg:items-center lg:ml-56 lg:pl-60 mt-24 sm:m-8 sm:pl-2  fixed">
 
-<h1 className="text-4xl  py-4 lg:pl-4 lg:mt-8 sm:ml-4 ">Sobre a odontemedic</h1>
+<h1 className="text-4xl  py-4 lg:pl-4 lg:mt-8 sm:ml-4 sm:text-center">Sobre a odontemedic</h1>
 
           </div> 
 
@@ -37,11 +37,11 @@ export default  class qualidade extends React.Component{
 
   
    <div className=" flex lg:justify-start  sm:justify-center lg:mt-36   lg:ml-24 translate-y-40 fixed">
-   <p className="lg:hidden lg:text-3xl sm:text-xl antialiased hover:subpixel-antialiased   translate-y-96 fixed">A odontomedic foi criado para fornecer ajuda  aos profissionais e as pessoas  que nescessita equipamentos medicos á produtos medicos </p>
+   <p className="lg:hidden lg:text-3xl sm:text-xl text-center  translate-y-96 fixed">Aqui com o nossos catálogo de produtos vocês encontra as melhores qualidade </p>
     
 <div className={styles.blobImage}>
 
-<span className="">  <Image src={imCardOdont} className="" height={460} width={420} /></span>
+<span className="ml-20">  <Image src={imCardProduto} className="" height={260} width={220} /></span>
 </div>
  
 
@@ -52,7 +52,7 @@ export default  class qualidade extends React.Component{
         
 <div className="lg:flex  lg:justify-end sm:justify-center  m-4  lg:ml-40 lg:mt-36 lg:pt-36 translate-x-6 ">
 
-    <p className="lg:text-3xl sm:text-xl antialiased text-center   ">A odontomedic foi criado para fornecer ajuda  aos profissionais e as pessoas  que nescessita equipamentos medicos á produtos medicos </p>
+    <p className="lg:text-3xl sm:text-2xl antialiased text-center   ">Aqui com o nossos catálogo de produtos vocês encontra as melhores qualidade</p>
   
 
     </div>

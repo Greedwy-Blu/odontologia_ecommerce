@@ -25,7 +25,7 @@ export default  class odontomedic extends React.Component{
      
      <div className="flex lg:justify-center text-center lg:items-center lg:ml-56 lg:pl-60 mt-24 sm:m-8 sm:pl-2  fixed">
 
-<h1 className="text-4xl  py-4 lg:pl-4 lg:mt-8 sm:ml-4 ">Sobre a odontemedic</h1>
+<h1 className="text-4xl  py-4 lg:pl-4 lg:mt-8 sm:ml-4 sm:text-center">Sobre a odontemedic</h1>
 
             </div> 
 
@@ -40,11 +40,11 @@ export default  class odontomedic extends React.Component{
 
     
      <div className=" flex lg:justify-start  sm:justify-center lg:mt-36   lg:ml-24 translate-y-40 fixed">
-     <p className="lg:hidden lg:text-3xl sm:text-xl antialiased hover:subpixel-antialiased   translate-y-96 fixed">A odontomedic foi criado para fornecer ajuda  aos profissionais e as pessoas  que nescessita equipamentos medicos á produtos medicos </p>
+     <p className="lg:hidden lg:text-3xl sm:text-xl antialiased hover:subpixel-antialiased  text-center translate-y-96 fixed">A odontomedic foi criado para fornecer ajuda  aos profissionais e as pessoas  que nescessita equipamentos medicos á produtos medicos </p>
       
 <div className={styles.blobImage}>
 
-<span className="">  <Image src={imCardOdont} className="" height={460} width={420} /></span>
+<span className="mb-12">  <Image src={imCardOdont} className="" height={460} width={420} /></span>
 </div>
    
 
