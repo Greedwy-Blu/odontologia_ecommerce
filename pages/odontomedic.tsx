@@ -30,11 +30,14 @@ export default  class odontomedic extends React.Component{
             </div> 
 
             <div className=" pr-32 lg:mt-24 sm:mt-32 m-8 fixed">
-<button className="flex justify-end lg:mt-24    bg-green-500 h-10 w-10 rounded-full">
-  <IconContext.Provider value={{ size: "2em", className: "flex items-center" }}>
-    <span className="mt-0.5 p-0.5"><BiLeftArrowAlt/></span>
-    </IconContext.Provider>
-</button>
+            <Link href="/">
+               
+               <button className="flex justify-end lg:mt-24    bg-green-500 h-10 w-10 rounded-full">
+               <IconContext.Provider value={{ size: "2em", className: "flex items-center" }}>
+                 <span className="mt-0.5 p-0.5"><BiLeftArrowAlt/></span>
+                 </IconContext.Provider>
+               </button>
+               </Link>
      </div>
      
 

@@ -22,16 +22,19 @@ export default  class preco extends React.Component{
    
    <div className="flex lg:justify-center text-center lg:items-center lg:ml-56 lg:pl-60 mt-24 sm:m-8 sm:pl-2  fixed">
 
-<h1 className="text-4xl  py-4 lg:pl-4 lg:mt-8 sm:ml-4 sm:text-center">Sobre a odontemedic</h1>
+<h1 className="text-4xl  py-4 lg:pl-4 lg:mt-8 sm:ml-4 sm:text-center">Sobre o preço</h1>
 
           </div> 
 
           <div className=" pr-32 lg:mt-24 sm:mt-32 m-8 fixed">
+          <Link href="/">
+               
 <button className="flex justify-end lg:mt-24    bg-green-500 h-10 w-10 rounded-full">
 <IconContext.Provider value={{ size: "2em", className: "flex items-center" }}>
   <span className="mt-0.5 p-0.5"><BiLeftArrowAlt/></span>
   </IconContext.Provider>
 </button>
+</Link>
    </div>
    
 
